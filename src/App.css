@@ -1,0 +1,141 @@
+/* homePage */
+body {
+  background-color:darkgrey;
+  color: black;
+}
+
+#profile_pic {
+  border-radius: 10%;
+  height: 400px;
+  padding: 10px;
+  background-color:black;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+#bodyTags {
+  text-align: center;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 5px;
+  text-align: center;
+  color: black;
+  height: 120px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color:lightgray;
+  overflow: auto;
+
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  color:black;
+  text-decoration: none;
+  font-size: 17px;
+  padding-left: 190px;
+}
+
+
+/* Column container */
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+
+}
+
+.side {
+  -ms-flex: 30%;
+  /* IE10 */
+  flex: 30%;
+  background-color:lightgray;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color:lightgray;
+  text-align: center;
+  color: black;
+}
+
+.new1 {
+    border-top: 4px solid black;
+    padding: 0%;
+    margin: 0%;
+    }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:black;
+  color:lightgray;
+}
+
+.h2center{
+  padding-left: 50px;
+}
+
+#finePrint{
+  font-size: 8px;
+}
+
+
+/* contactInfo */
+
+.card-text{
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+.card-body {
+    background-color:floralwhite;
+    color:indigo;
+    text-align: center;
+    border-radius: 15px;
+
+
+}
+
+#link {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.nav-tabs {
+    color: black;
+}
+
+
